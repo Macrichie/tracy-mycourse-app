@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: tracy-mycourse-app
+  host: tracy-app
+  disk_quota: 1024M
+  services:
+  - tracy-mycourse-app-cloudantNoSQLDB
+  - Language Translator-un
+  - Conversation-bw
+  - Speech to Text-mu
+  - availability-monitoring-auto
